@@ -1,0 +1,271 @@
+{
+    "name": "mindcraft_extension",
+    "api_version": {
+        "adapter_api": "1.0.0",
+        "llm_api": "1.0.0",
+        "log_api": "1.0.0",
+        "stream_api": "1.0.0"
+    },
+    "display_name": "Mindcraft 扩展能力",
+    "version": "0.1.0",
+    "description": "提供 Minecraft 的游戏动作和查询能力作为 MoFox Tool",
+    "author": "MoFox Team",
+    "license": "MIT",
+    "categories": ["chat"],
+    "tags": ["minecraft", "tools", "game"],
+    "dependencies": {
+        "plugins": ["mindcraft_adapter"],
+        "components": []
+    },
+    "include": [
+        {
+            "component_type": "tool",
+            "component_name": "mc_go_to_player",
+            "dependencies": ["mindcraft_adapter:adapter:mindcraft_adapter"]
+        },
+        {
+            "component_type": "tool",
+            "component_name": "mc_follow_player",
+            "dependencies": ["mindcraft_adapter:adapter:mindcraft_adapter"]
+        },
+        {
+            "component_type": "tool",
+            "component_name": "mc_go_to_coords",
+            "dependencies": ["mindcraft_adapter:adapter:mindcraft_adapter"]
+        },
+        {
+            "component_type": "tool",
+            "component_name": "mc_search_block",
+            "dependencies": ["mindcraft_adapter:adapter:mindcraft_adapter"]
+        },
+        {
+            "component_type": "tool",
+            "component_name": "mc_search_entity",
+            "dependencies": ["mindcraft_adapter:adapter:mindcraft_adapter"]
+        },
+        {
+            "component_type": "tool",
+            "component_name": "mc_move_away",
+            "dependencies": ["mindcraft_adapter:adapter:mindcraft_adapter"]
+        },
+        {
+            "component_type": "tool",
+            "component_name": "mc_go_to_place",
+            "dependencies": ["mindcraft_adapter:adapter:mindcraft_adapter"]
+        },
+        {
+            "component_type": "tool",
+            "component_name": "mc_go_to_bed",
+            "dependencies": ["mindcraft_adapter:adapter:mindcraft_adapter"]
+        },
+        {
+            "component_type": "tool",
+            "component_name": "mc_stay",
+            "dependencies": ["mindcraft_adapter:adapter:mindcraft_adapter"]
+        },
+        {
+            "component_type": "tool",
+            "component_name": "mc_dig_down",
+            "dependencies": ["mindcraft_adapter:adapter:mindcraft_adapter"]
+        },
+        {
+            "component_type": "tool",
+            "component_name": "mc_go_to_surface",
+            "dependencies": ["mindcraft_adapter:adapter:mindcraft_adapter"]
+        },
+        {
+            "component_type": "tool",
+            "component_name": "mc_remember_place",
+            "dependencies": ["mindcraft_adapter:adapter:mindcraft_adapter"]
+        },
+        {
+            "component_type": "tool",
+            "component_name": "mc_collect_blocks",
+            "dependencies": ["mindcraft_adapter:adapter:mindcraft_adapter"]
+        },
+        {
+            "component_type": "tool",
+            "component_name": "mc_place_block",
+            "dependencies": ["mindcraft_adapter:adapter:mindcraft_adapter"]
+        },
+        {
+            "component_type": "tool",
+            "component_name": "mc_attack",
+            "dependencies": ["mindcraft_adapter:adapter:mindcraft_adapter"]
+        },
+        {
+            "component_type": "tool",
+            "component_name": "mc_attack_player",
+            "dependencies": ["mindcraft_adapter:adapter:mindcraft_adapter"]
+        },
+        {
+            "component_type": "tool",
+            "component_name": "mc_give_item",
+            "dependencies": ["mindcraft_adapter:adapter:mindcraft_adapter"]
+        },
+        {
+            "component_type": "tool",
+            "component_name": "mc_consume",
+            "dependencies": ["mindcraft_adapter:adapter:mindcraft_adapter"]
+        },
+        {
+            "component_type": "tool",
+            "component_name": "mc_equip",
+            "dependencies": ["mindcraft_adapter:adapter:mindcraft_adapter"]
+        },
+        {
+            "component_type": "tool",
+            "component_name": "mc_put_in_chest",
+            "dependencies": ["mindcraft_adapter:adapter:mindcraft_adapter"]
+        },
+        {
+            "component_type": "tool",
+            "component_name": "mc_take_from_chest",
+            "dependencies": ["mindcraft_adapter:adapter:mindcraft_adapter"]
+        },
+        {
+            "component_type": "tool",
+            "component_name": "mc_view_chest",
+            "dependencies": ["mindcraft_adapter:adapter:mindcraft_adapter"]
+        },
+        {
+            "component_type": "tool",
+            "component_name": "mc_discard",
+            "dependencies": ["mindcraft_adapter:adapter:mindcraft_adapter"]
+        },
+        {
+            "component_type": "tool",
+            "component_name": "mc_craft",
+            "dependencies": ["mindcraft_adapter:adapter:mindcraft_adapter"]
+        },
+        {
+            "component_type": "tool",
+            "component_name": "mc_smelt",
+            "dependencies": ["mindcraft_adapter:adapter:mindcraft_adapter"]
+        },
+        {
+            "component_type": "tool",
+            "component_name": "mc_clear_furnace",
+            "dependencies": ["mindcraft_adapter:adapter:mindcraft_adapter"]
+        },
+        {
+            "component_type": "tool",
+            "component_name": "mc_use_on",
+            "dependencies": ["mindcraft_adapter:adapter:mindcraft_adapter"]
+        },
+        {
+            "component_type": "tool",
+            "component_name": "mc_show_villager_trades",
+            "dependencies": ["mindcraft_adapter:adapter:mindcraft_adapter"]
+        },
+        {
+            "component_type": "tool",
+            "component_name": "mc_trade_with_villager",
+            "dependencies": ["mindcraft_adapter:adapter:mindcraft_adapter"]
+        },
+        {
+            "component_type": "tool",
+            "component_name": "mc_look_at_player",
+            "dependencies": ["mindcraft_adapter:adapter:mindcraft_adapter"]
+        },
+        {
+            "component_type": "tool",
+            "component_name": "mc_look_at_position",
+            "dependencies": ["mindcraft_adapter:adapter:mindcraft_adapter"]
+        },
+        {
+            "component_type": "tool",
+            "component_name": "mc_set_mode",
+            "dependencies": ["mindcraft_adapter:adapter:mindcraft_adapter"]
+        },
+        {
+            "component_type": "tool",
+            "component_name": "mc_goal",
+            "dependencies": ["mindcraft_adapter:adapter:mindcraft_adapter"]
+        },
+        {
+            "component_type": "tool",
+            "component_name": "mc_end_goal",
+            "dependencies": ["mindcraft_adapter:adapter:mindcraft_adapter"]
+        },
+        {
+            "component_type": "tool",
+            "component_name": "mc_new_action",
+            "dependencies": ["mindcraft_adapter:adapter:mindcraft_adapter"]
+        },
+        {
+            "component_type": "tool",
+            "component_name": "mc_start_conversation",
+            "dependencies": ["mindcraft_adapter:adapter:mindcraft_adapter"]
+        },
+        {
+            "component_type": "tool",
+            "component_name": "mc_end_conversation",
+            "dependencies": ["mindcraft_adapter:adapter:mindcraft_adapter"]
+        },
+        {
+            "component_type": "tool",
+            "component_name": "mc_query_stats",
+            "dependencies": ["mindcraft_adapter:adapter:mindcraft_adapter"]
+        },
+        {
+            "component_type": "tool",
+            "component_name": "mc_query_inventory",
+            "dependencies": ["mindcraft_adapter:adapter:mindcraft_adapter"]
+        },
+        {
+            "component_type": "tool",
+            "component_name": "mc_query_nearby_blocks",
+            "dependencies": ["mindcraft_adapter:adapter:mindcraft_adapter"]
+        },
+        {
+            "component_type": "tool",
+            "component_name": "mc_query_craftable",
+            "dependencies": ["mindcraft_adapter:adapter:mindcraft_adapter"]
+        },
+        {
+            "component_type": "tool",
+            "component_name": "mc_query_entities",
+            "dependencies": ["mindcraft_adapter:adapter:mindcraft_adapter"]
+        },
+        {
+            "component_type": "tool",
+            "component_name": "mc_query_modes",
+            "dependencies": ["mindcraft_adapter:adapter:mindcraft_adapter"]
+        },
+        {
+            "component_type": "tool",
+            "component_name": "mc_query_saved_places",
+            "dependencies": ["mindcraft_adapter:adapter:mindcraft_adapter"]
+        },
+        {
+            "component_type": "tool",
+            "component_name": "mc_query_crafting_plan",
+            "dependencies": ["mindcraft_adapter:adapter:mindcraft_adapter"]
+        },
+        {
+            "component_type": "tool",
+            "component_name": "mc_stop",
+            "dependencies": ["mindcraft_adapter:adapter:mindcraft_adapter"]
+        },
+        {
+            "component_type": "tool",
+            "component_name": "mc_clear_chat",
+            "dependencies": ["mindcraft_adapter:adapter:mindcraft_adapter"]
+        },
+        {
+            "component_type": "tool",
+            "component_name": "mc_stfu",
+            "dependencies": ["mindcraft_adapter:adapter:mindcraft_adapter"]
+        },
+        {
+            "component_type": "tool",
+            "component_name": "mc_restart",
+            "dependencies": ["mindcraft_adapter:adapter:mindcraft_adapter"]
+        }
+    ],
+    "entry_point": "plugin.py",
+    "min_core_version": "1.2.0-rc.2",
+    "python_dependencies": [],
+    "dependencies_required": true
+}
