@@ -86,8 +86,6 @@ class MindcraftExtensionPlugin(BasePlugin):
     """
 
     plugin_name = "mindcraft_extension"
-    plugin_description = "提供 Minecraft 的游戏动作和查询能力作为 MoFox Tool"
-    plugin_version = "0.1.0"
     configs: list[type] = [MindcraftExtensionConfig]
 
     def get_components(self) -> list[type]:
