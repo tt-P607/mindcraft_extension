@@ -4,10 +4,10 @@
         "adapter_api": "1.0.0",
         "llm_api": "1.0.0",
         "log_api": "1.0.0",
-        "stream_api": "1.0.0"
+        "stream_api": "2.0.0"
     },
     "display_name": "Mindcraft 扩展能力",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "提供 Minecraft 的游戏动作和查询能力作为 MoFox Tool",
     "author": "MoFox Team",
     "license": "MIT",
